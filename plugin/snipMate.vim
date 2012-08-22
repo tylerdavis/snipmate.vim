@@ -269,3 +269,5 @@ fun! ShowAvailableSnips()
 	return ''
 endf
 " vim:noet:sw=4:ts=4:ft=vim
+
+call ExtractSnipsFile(g:snippets_dir.'javascript.snippets', 'html')
